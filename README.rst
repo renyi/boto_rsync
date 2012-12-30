@@ -124,6 +124,8 @@ Options
   --delete              Delete extraneous files from destination dirs after
                         the transfer has finished (e.g. rsync's --delete-
                         after).
+  --filter              A list of patterns to be filtered from the list.
+                        (e.g. '.thumbnails, *.jpg, *.txt').
   -n, --dry-run         No files will be transferred, but informational
                         messages will be printed about what would have
                         happened.
